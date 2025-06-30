@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+}
+
+.arrowleft{
+    font-size: 80px;
+    display: flex;
+    align-items: center; /* vertically center image and arrow */
+    gap: 10px;
+    height: calc(155vh);
+    position: absolute;
+    left: 40%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.arrowright{
+    font-size: 80px;
+    display: flex;
+    align-items: center; /* vertically center image and arrow */
+    gap: 10px;
+    height: calc(155vh);
+    position: absolute;
+    right: 40%;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.images{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.imagesdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 170px); 
+}
+
+html, body{ 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFB6C1;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    background: linear-gradient(180deg,#f88185, #f8c6b8);  
+
+}
+
+.main-header {
+    margin: 0;
+  background-color: #fff;
+  background: linear-gradient(180deg,#ffffff, #fabdad);  
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+#counter{
+    position: absolute;
+    left: 49.5%;
+    top: 85.5%;
+}
+
+#counter2{
+    position: absolute;
+    right: 50.75%;
+    top: 85.5%;
+}
